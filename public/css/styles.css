@@ -384,8 +384,8 @@ nav a {
 }
 @media screen and (min-width: 1024px) {
   .sidebar {
-    -webkit-box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53); 
-    box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 3px 2px 23px 1px rgba(0,0,0,0.4); 
+    box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.4);
   }
 }
 

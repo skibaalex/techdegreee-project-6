@@ -448,6 +448,10 @@ h1{
   animation-fill-mode: forwards;
 }
 
+.dev-intro-box p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 /* 
   Animations

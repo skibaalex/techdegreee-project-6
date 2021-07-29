@@ -340,6 +340,10 @@ nav a span {
   }
 }
 
+.error-msg{
+  width: 100%;
+}
+
 
 /* 
   Desktop layout styles 

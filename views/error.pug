@@ -1,7 +1,14 @@
 extends layout.pug
 
 block content
-
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
   article.portfolio-intro
         img.error-msg(src=`/static/images/error.png`, alt=`error message illustration`)
         p #{error.status} #{error.message}
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

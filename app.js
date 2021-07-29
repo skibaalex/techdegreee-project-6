@@ -49,7 +49,10 @@ app.use((err, req, res, next) => {
         if (!err.message) err.message = 'Opps something went wrong'
         console.error(err)
         res.render('error', {
-            error
+            error: {
+                message: err.message,
+                status: err.status
+            }
         })
     }
 })

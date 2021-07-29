@@ -3,16 +3,17 @@ extends layout.pug
 block content
 
   article.portfolio-intro
-
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
-
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    h1 Hey, Potential Employers
+    p All of these projects were made during a course i took from teamtreehouse.com for Fullstack JavaScript Development
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.previewImg}`, alt=`image of ${project.name.toLowerCase()} project`)
+            h5 #{project.name}
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       

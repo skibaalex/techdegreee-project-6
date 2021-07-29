@@ -1,0 +1,78 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "API Requests",
+            "description": "This app fetches an array of of people and handles the display of their information to the user. The use can look at all of them in a grid view or click to pop a modal to view their informaion individually.",
+            "technologies": [
+                "CSS, HTML & JavaScript"
+            ],
+            "live_link": "https://skibaalex.github.io/teachdegree-project-5/",
+            "github_link": "https://github.com/skibaalex/teachdegree-project-5",
+            "previewImg": "/static/images/preview/public_api.png",
+            "images": [
+                "/static/images/public_api.png"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Data Pagination",
+            "description": "This app gets an array of data and takes care of filtering though a search and data display pagination",
+            "technologies": [
+                "JavaScript, CSS & HTML"
+            ],
+            "live_link": "https://skibaalex.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/skibaalex/techdegree-project-3",
+            "previewImg": "/static/images/preview/peginnation.png",
+            "images": [
+                "/static/images/peginnation.png"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Reactive Form",
+            "description": "Fully fuinction and responsive form, the form gets validated on submit and validates each field on interaction with it.",
+            "technologies": [
+                "HTML, CSS & JavaScript"
+            ],
+            "live_link": "https://skibaalex.github.io/techdegree-project-3/",
+            "github_link": "https://github.com/skibaalex/techdegree-project-3",
+            "previewImg": "/static/images/preview/reactive_form.png",
+            "images": [
+                "/static/images/reactive_form_1.png",
+                "/static/images/reactive_form_2.png",
+                "/static/images/reactive_form_3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Game Show",
+            "description": "This is a browser based word guessing game just like \"Phrase Hunter.\" the user can input his guess with a click on a button or with his keyboard if available.",
+            "technologies": [
+                "JavaScript, CSS, & HTML"
+            ],
+            "live_link": "https://skibaalex.github.io/teachdegree-project-4",
+            "github_link": "https://github.com/skibaalex/teachdegree-project-4",
+            "previewImg": "/static/images/preview/phrase_gueeser.png",
+            "images": [
+                "/static/images/phrase_guess_won.png",
+                "/static/images/phrase_guess_game.png",
+                "/static/images/phrase_guess_lost.png"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Random Quote Generator",
+            "description": "A small and silly web app that displays a JavaScript related qoutes from books and articles.",
+            "technologies": [
+                "JavaScript"
+            ],
+            "live_link": "https://skibaalex.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/skibaalex/techdegree-project-1",
+            "previewImg": "/static/images/preview/random_qoute.png",
+            "images": [
+                "/static/images/random_qoute.png"
+            ]
+        }
+    ]
+}

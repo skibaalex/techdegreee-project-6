@@ -382,10 +382,11 @@ nav a {
   animation:  slideUp 0.8s ease;
   animation-fill-mode: forwards;
 }
-
-.sidebar {
-  -webkit-box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53); 
-  box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53);
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    -webkit-box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53); 
+    box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53);
+  }
 }
 
 

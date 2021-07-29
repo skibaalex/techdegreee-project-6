@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "name": "API Requests",
+            "project_name": "API Requests",
             "description": "The goal of this project was the demonstrate the ability to fetch data from the backend server using the fetch API and asynchronous functions then manipulate and display the data to the end-user.",
             "technologies": [
                 "CSS, HTML & JavaScript"
@@ -10,13 +10,13 @@
             "live_link": "https://skibaalex.github.io/teachdegree-project-5/",
             "github_link": "https://github.com/skibaalex/teachdegree-project-5",
             "previewImg": "/static/images/preview/public_api.png",
-            "images": [
+            "image_urls": [
                 "/static/images/public_api.png"
             ]
         },
         {
             "id": 1,
-            "name": "Data Pagination",
+            "project_name": "Data Pagination",
             "description": "Data pagination, manipulation and filtering are some of the most common things to do as a developer, this project demonstrates the ability to filter manipulate, and display the data to the end-user while keeping in mind the overall functionality of the application.",
             "technologies": [
                 "JavaScript, CSS & HTML"
@@ -24,13 +24,13 @@
             "live_link": "https://skibaalex.github.io/techdegree-project-3/",
             "github_link": "https://github.com/skibaalex/techdegree-project-3",
             "previewImg": "/static/images/preview/peginnation.png",
-            "images": [
+            "image_urls": [
                 "/static/images/peginnation.png"
             ]
         },
         {
             "id": 2,
-            "name": "Reactive Form",
+            "project_name": "Reactive Form",
             "description": "User input is the most common way to collect information about the user, from login with username and password to credit card payment processing. This project demonstrates the ability to control user input and react to it by validating or not validating the form.",
             "technologies": [
                 "HTML, CSS & JavaScript"
@@ -38,7 +38,7 @@
             "live_link": "https://skibaalex.github.io/techdegree-project-3/",
             "github_link": "https://github.com/skibaalex/techdegree-project-3",
             "previewImg": "/static/images/preview/reactive_form.png",
-            "images": [
+            "image_urls": [
                 "/static/images/reactive_form_1.png",
                 "/static/images/reactive_form_2.png",
                 "/static/images/reactive_form_3.png"
@@ -46,7 +46,7 @@
         },
         {
             "id": 3,
-            "name": "Game Show",
+            "project_name": "Game Show",
             "description": "This is a browser based word guessing game just like \"Phrase Hunter.\" the user can input his guess with a click on a button or with his keyboard if available. The goal for this project was to demonstrate the ability to react to user interactions.",
             "technologies": [
                 "JavaScript, CSS, & HTML"
@@ -54,7 +54,7 @@
             "live_link": "https://skibaalex.github.io/teachdegree-project-4",
             "github_link": "https://github.com/skibaalex/teachdegree-project-4",
             "previewImg": "/static/images/preview/phrase_gueeser.png",
-            "images": [
+            "image_urls": [
                 "/static/images/phrase_guess_won.png",
                 "/static/images/phrase_guess_game.png",
                 "/static/images/phrase_guess_lost.png"
@@ -62,7 +62,7 @@
         },
         {
             "id": 4,
-            "name": "Random Quote Generator",
+            "project_name": "Random Quote Generator",
             "description": "A small and silly web app that displays a JavaScript related qoutes from books and articles.",
             "technologies": [
                 "JavaScript"
@@ -70,7 +70,7 @@
             "live_link": "https://skibaalex.github.io/techdegree-project-1/",
             "github_link": "https://github.com/skibaalex/techdegree-project-1",
             "previewImg": "/static/images/preview/random_qoute.png",
-            "images": [
+            "image_urls": [
                 "/static/images/random_qoute.png"
             ]
         }

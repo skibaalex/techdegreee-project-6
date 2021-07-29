@@ -43,9 +43,11 @@ app.use((req, res, next) => {
 })
 
 app.use((err, req, res, next) => {
-    if (!err.status) err.status = 500
-    if (!err.message) err.message = 'Opps something went wrong'
-    res.render('error')
+    if (err) {
+        if (!err.status) err.status = 500
+        if (!err.message) err.message = 'Opps something went wrong'
+        res.render('error')
+    }
 })
 
 

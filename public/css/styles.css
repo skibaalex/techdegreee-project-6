@@ -12,7 +12,7 @@ body {
   width: 100%;
   min-width: 100%;
   height: 100%;
-  min-height: 100%;
+  min-height: 100%; 
 }
 
 body {
@@ -271,11 +271,6 @@ nav a span {
   font-size: 125%;
 }
 
-.about-bio p {
-  font-size: 15px;
-  padding-top: 40px;
-}
-
 .skills-contact-box ul {
   margin-bottom: 35px;
 }
@@ -364,5 +359,138 @@ nav a span {
 
   .inner-wrapper {
     max-width: 1200px;
+  }
+}
+
+
+
+/*
+  Modifications
+*/
+
+.cell img:hover {
+  transform: translateY(-20px);
+  animation: imgUp 0.8s ease;
+}
+
+nav a {
+  animation: slideIn 0.4s ease;
+}
+
+.project-info-box p{
+  opacity: 0;
+  animation:  slideUp 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+.sidebar {
+  -webkit-box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53); 
+  box-shadow: 4px 2px 23px 1px rgba(0,0,0,0.53);
+}
+
+
+.about-bio p:last-child {
+  animation-delay: 0.2s;
+}
+
+
+.about-bio p {
+  font-size: 15px;
+  padding-top: 25px;
+  opacity: 0;
+  animation:  slideUp 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+.btn-link {
+  opacity: 0;
+  animation:  slideLeft 0.8s ease;
+  animation-fill-mode: forwards;
+}
+.project-tech-links-box{
+  opacity: 0;
+  animation:  slideLeft 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+.skills-contact-box {
+  opacity: 0;
+  animation:  slideLeft 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+h1{
+  opacity: 0;
+  animation:  fadeIn 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+.subtitle{
+  opacity: 0;
+  animation:  fadeIn 0.8s ease;
+  animation-fill-mode: forwards;
+}
+
+.skills-contact-box ul li a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-img{
+  opacity: 0;
+  animation:  fadeIn 1s ease;
+  animation-fill-mode: forwards;
+}
+
+.cell {
+  opacity: 0;
+  animation:  slideUp 1s ease;
+  animation-fill-mode: forwards;
+}
+
+
+/* 
+  Animations
+*/
+
+@keyframes imgUp {
+  0%{
+    transform: translateY(0);
+    
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slideUp {
+  0%{
+    transform:translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0);
+    opacity: 1;
+  }
+  
+}
+
+@keyframes slideLeft {
+  from{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }

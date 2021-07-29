@@ -3,7 +3,7 @@
         {
             "id": 0,
             "name": "API Requests",
-            "description": "This app fetches an array of of people and handles the display of their information to the user. The use can look at all of them in a grid view or click to pop a modal to view their informaion individually.",
+            "description": "The goal of this project was the demonstrate the ability to fetch data from the backend server using the fetch API and asynchronous functions then manipulate and display the data to the end-user.",
             "technologies": [
                 "CSS, HTML & JavaScript"
             ],
@@ -17,7 +17,7 @@
         {
             "id": 1,
             "name": "Data Pagination",
-            "description": "This app gets an array of data and takes care of filtering though a search and data display pagination",
+            "description": "Data pagination, manipulation and filtering are some of the most common things to do as a developer, this project demonstrates the ability to filter manipulate, and display the data to the end-user while keeping in mind the overall functionality of the application.",
             "technologies": [
                 "JavaScript, CSS & HTML"
             ],
@@ -31,7 +31,7 @@
         {
             "id": 2,
             "name": "Reactive Form",
-            "description": "Fully fuinction and responsive form, the form gets validated on submit and validates each field on interaction with it.",
+            "description": "User input is the most common way to collect information about the user, from login with username and password to credit card payment processing. This project demonstrates the ability to control user input and react to it by validating or not validating the form.",
             "technologies": [
                 "HTML, CSS & JavaScript"
             ],
@@ -47,7 +47,7 @@
         {
             "id": 3,
             "name": "Game Show",
-            "description": "This is a browser based word guessing game just like \"Phrase Hunter.\" the user can input his guess with a click on a button or with his keyboard if available.",
+            "description": "This is a browser based word guessing game just like \"Phrase Hunter.\" the user can input his guess with a click on a button or with his keyboard if available. The goal for this project was to demonstrate the ability to react to user interactions.",
             "technologies": [
                 "JavaScript, CSS, & HTML"
             ],
